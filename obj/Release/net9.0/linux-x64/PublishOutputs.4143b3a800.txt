@@ -1,0 +1,2 @@
+/home/vxid-dev/Coding/C# - Basics/cstasks/cstasks.pdb
+/home/vxid-dev/Coding/C# - Basics/cstasks/cstasks
