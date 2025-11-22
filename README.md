@@ -11,9 +11,12 @@ A simple command-line to-do list app written in C#. Add, view, and manage tasks 
 ## Installation
 
 ```bash
-git clone https://github.com/VxidDev/cstasks.git
+git clone https://github.com/VxidDev/CStasks.git
+dotnet new console -n cstasks
+mv CStasks/Program.cs cstasks/Program.cs
+cd cstasks 
 dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o .
-chmod +x cstasks
+chmod +x cstasks 
 sudo mv cstasks /usr/local/bin/cstasks
 ```
 
